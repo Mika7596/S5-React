@@ -2,14 +2,13 @@ import { useState } from 'react'
 import './App.css'
 import Navbar from './components/atoms/navbar/Navbar'
 import Button from './components/atoms/button/Button'
-import Logo from './components/atoms/logo/Logo'
+
+import Header from './components/organisms/header/Header'
 
 function App() {
   return (
     <>
-    <Button button_content = "hola"> </Button>
-    <Navbar></Navbar>
-    <Logo></Logo>
+    <Header></Header>
     </>
   )
 }
