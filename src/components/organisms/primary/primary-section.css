@@ -1,0 +1,24 @@
+.container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+button{
+    margin-right: 5%;
+    font-weight: lighter;
+}
+
+.content{
+    width: 45%;
+    margin-top: 15px;
+}
+
+.img{
+    width: 50%;
+}
+
+.img img{
+    max-width:100%;
+}
