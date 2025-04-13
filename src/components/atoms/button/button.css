@@ -1,0 +1,39 @@
+button{
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(196, 191, 191);
+    font-weight: bolder;
+    border: 1px solid rgb(196, 191, 191);
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(168, 166, 166);
+    border: 1px solid rgb(196, 191, 191);
+}
+
+.button-red{
+    background-color: coral;
+    color: white;
+    border: 1px solid coral;
+}
+
+.button-red:hover{
+    background-color: #fff;
+    color: coral;
+    border: 1px solid coral;
+}
+
+.button-blue{
+    background-color: rgb(83, 104, 223);
+    color: white;
+    border: 1px solid rgb(83, 104, 223);
+}
+
+.button-blue:hover{
+    background-color: white;
+    color: rgb(83, 104, 223);
+    border: 1px solid rgb(83, 104, 223);
+}
