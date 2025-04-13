@@ -1,0 +1,26 @@
+.slider-container{
+    overflow: hidden;
+    width: 76%;
+    margin: auto;
+}
+.slider{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}
+.tab{
+   
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+.img, .tab-content{
+    width: 450px
+} 
+.img{
+    margin-right: 80px;
+} 
+/*--------------------*/
