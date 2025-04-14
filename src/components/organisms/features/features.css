@@ -26,3 +26,16 @@
 .indicator-container:focus{
     border-bottom: 2px solid coral;
 } 
+
+.tab{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.tab-content{
+    width: 45%;
+    padding-top: 30px;
+}
