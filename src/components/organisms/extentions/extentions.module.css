@@ -1,9 +1,19 @@
+.intro{
+    padding-top: 50px;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
 .extentions{
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-around;
     height: 400px;
+}
+
+.extentions img{
+    max-width: 100%;
 }
 
 .extentions div:first-child{
