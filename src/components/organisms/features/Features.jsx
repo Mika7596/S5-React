@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import './features.css'
 import data from '../../../assets/data/features.json'
 import Button from '../../atoms/button/Button'
@@ -9,18 +10,14 @@ function Features() {
                     <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
                 </div>
 
-    const selectTab = (i) =>{
-        alert(i)
-    }
-
     const indicators = data.map((tab, i) =>(
                         <div className='indicator-container' key={i}>
                         <div value={i} onClick={()=>{selectTab(i)}}>{tab.indicator}</div>
                         </div>
                         ))
-
+                        
     const tabs = data.map((tab, i) =>(
-                    <div className='tab' id={i} key={i}>
+                    <div className={`tab`} id={i} key={i}>
                         <div className='img'>
                             <img src={tab.img} alt="" />
                         </div>
@@ -31,6 +28,13 @@ function Features() {
                         </div>
                     </div>  
                     ));
+                    
+    let [index, setIndex] = useState(0);
+
+    const selectTab = (i) =>{
+            alert(i);
+            setIndex(index = i)
+    }
 
   return (
     <>
@@ -42,7 +46,7 @@ function Features() {
 
         <div className='slider-container'>
             <div className='slider'>
-                {tabs}
+                {tabs[index]}
             </div>
         </div>
     </>

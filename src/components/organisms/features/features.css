@@ -1,4 +1,4 @@
-.slider-container{
+/* .slider-container{
     overflow: hidden;
     width: 76%;
     margin: auto;
@@ -22,5 +22,8 @@
 } 
 .img{
     margin-right: 80px;
-} 
+}  */
 /*--------------------*/
+.red{
+    background-color: red;
+}
