@@ -11,13 +11,11 @@ function Features() {
                 </div>
 
     const indicators = data.map((tab, i) =>(
-                        <div className='indicator-container' key={i}>
-                        <div value={i} onClick={()=>{selectTab(i)}}>{tab.indicator}</div>
-                        </div>
+                        <button className='indicator-container' key={i} onClick={()=>{selectTab(i)}}>{tab.indicator}</button>
                         ))
                         
     const tabs = data.map((tab, i) =>(
-                    <div className={`tab`} id={i} key={i}>
+                    <div className={`tab`} key={i}>
                         <div className='img'>
                             <img src={tab.img} alt="" />
                         </div>
@@ -28,12 +26,10 @@ function Features() {
                         </div>
                     </div>  
                     ));
-                    
-    let [index, setIndex] = useState(0);
 
+    let [index, setIndex] = useState(0);
     const selectTab = (i) =>{
-            alert(i);
-            setIndex(index = i)
+            setIndex(index = i)  
     }
 
   return (
