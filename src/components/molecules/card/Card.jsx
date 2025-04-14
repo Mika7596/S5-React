@@ -10,7 +10,8 @@ function Card(props) {
         <h4>{props.browserName}</h4>
         <p>{props.version}</p>
         <div><img src="src/assets/images/bg-dots.svg" alt="" /></div>
-        <Button button_content="Add & install extention" button_class="button-blue"></Button>
+        <Button button_content={props.button_text} button_class="button-blue"></Button>
+
     </div>
   )
 }
