@@ -1,7 +1,41 @@
-.intro{
+.faqs{
     padding-top: 50px;
     width: 40%;
     margin: auto;
     text-align: center;
+}
+
+.details{
+    margin: auto;
+    margin-bottom: 30px;
+}
+.details button{
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    border: none;
+}
+button:hover{
+    color: coral
+}
+
+.details p{
+    display: none;
+} 
+.details div{
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+.details div:last-child{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.details button:focus + p {
+    display: block;
+}
+.visible{
+    display: block;
+}
+.invisible{
+    display: none;
 }
 
