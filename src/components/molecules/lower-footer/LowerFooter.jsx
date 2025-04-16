@@ -9,7 +9,7 @@ function LowerFooter() {
   return (
     <div className={styles.container}>
       <Logo></Logo>
-      <div><Navbar></Navbar></div>
+      <div className={styles.navbar}><Navbar style={{color: "white"}}></Navbar></div>
       <div className={styles.media}>
         <img src={facebook} alt="facebook icon" />
         <img src={twitter} alt="Twitter icon" />
