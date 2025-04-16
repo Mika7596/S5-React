@@ -10,25 +10,23 @@ function FAQs() {
 
     const questions = ["What is Bookmark?", "How can I request a new browser?", "Is there a mobile app?", "What about other Chromium browsers?"]
 
-     
-    
-    
-    const details = questions.map((question, i) =>(
-            <div key={i}>
-                <button >{question}</button>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, similique numquam ea veritatis delectus aliquam, veniam doloribus necessitatibus aperiam officiis eaque labore nobis incidunt quod voluptates non voluptas, iure alias!</p>
-            </div>
-        )
-
-        )
-   
+    const [visible, setVisible] = useState(false);
+    function showAnswer(){
+      setVisible(!visible)
+    }
 
   return (
     <div className={styles.faqs}>
     <div>{intro}</div>
-    <div className={styles.details}>{details}</div>
-
-
+    <div className={styles.details}>{
+      questions.map((question, i) =>(
+        <div key={i}>
+            <button onClick={showAnswer}>{question}</button>
+            {visible && <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, similique numquam ea veritatis delectus aliquam, veniam doloribus necessitatibus aperiam officiis eaque labore nobis incidunt quod voluptates non voluptas, iure alias!</p>}
+        </div>
+    )
+    )}</div>
+ 
     <Button button_content="More Info" button_class={"button-blue"}></Button>
     </div>
   )
