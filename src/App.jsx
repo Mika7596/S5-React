@@ -4,11 +4,8 @@ import Header from './components/organisms/header/Header'
 import PrimarySection from './components/organisms/primary/PrimarySection'
 import Features from './components/organisms/features/Features'
 import Extentions from './components/organisms/extentions/Extentions'
-<<<<<<< HEAD
 import Footer from './components/organisms/footer/Footer'
-=======
 import FAQs from './components/organisms/FAQs/FAQs'
->>>>>>> faqs
 
 function App() {
   return (
@@ -17,11 +14,8 @@ function App() {
     <PrimarySection></PrimarySection>
     <Features></Features>
     <Extentions></Extentions>
-<<<<<<< HEAD
-    <Footer></Footer>
-=======
     <FAQs></FAQs>
->>>>>>> faqs
+    <Footer></Footer>
     </>
   )
 }
