@@ -10,7 +10,7 @@ function UpperFooter() {
         <h3>Stay up-to-date with what we're doing</h3>
         </div>
         <div className={styles.form_container}>
-            <input type="email" name="" id="" placeholder='Enter your email address'/>
+            <input type="email" className={styles.input} id="" placeholder='Enter your email address'/>
             <Button button_class={"button-red"} button_content="Contact Us"></Button>
         </div>
     </div>
