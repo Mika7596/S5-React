@@ -3,5 +3,8 @@
 *{
   box-sizing: border-box;
   font-family: "National Park", sans-serif;
-  font-size: large;
+}
+
+button{
+  font-size: large
 }
