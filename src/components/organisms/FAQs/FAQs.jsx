@@ -15,6 +15,11 @@ function FAQs() {
       setVisible(!visible)
     }
 
+    // const [visibility, setVisibility] = useState("none")
+    // function showText(){
+    //   setVisibility(visibility === "none"? "block" : "none")
+    // }
+
   return (
     <div className={styles.faqs}>
     <div>{intro}</div>
@@ -26,6 +31,15 @@ function FAQs() {
         </div>
     )
     )}</div>
+
+    {/* <div>{questions.map((question, i) =>(
+        <div key={i}>
+            <button onClick={showText}>{question}</button>
+            <p style={{display : visibility}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, similique numquam ea veritatis delectus aliquam, veniam doloribus necessitatibus aperiam officiis eaque labore nobis incidunt quod voluptates non voluptas, iure alias!</p>
+        </div>
+    )
+    )}
+    </div> */}
  
     <Button button_content="More Info" button_class={"button-blue"}></Button>
     </div>

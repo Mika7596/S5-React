@@ -1,12 +1,17 @@
-# React + Vite
+# S5: React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This webpage is built on React using JavaScript. The project has been created by Vite. In this exercise, I created some small components (like bottons) and used them in bigger ones. I also used "useState" in the slider and accordion to control which component should be displayed.
 
-Currently, two official plugins are available:
+## Requirements
+Before running the project, make sure you have Node.js (version 16 or higher) installed:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation and Execution
+You can clone this project by typing the following command in your terminal:
+`git clone https://github.com/Mika7596/S5-React.git`
+Navigate into the project foler `cd S5-REACT`
+Type `npm install` to install all dependencies.
+Now run the program by `npm start` and `npm run dev` then open the link available in your terminal to visualize the webpage.
 
-## Expanding the ESLint configuration
+## Contributions
+I'd be grateful for any comments on my code. If there are any errors / bad practices, let me know by posting a new issue on this repo. Thank you!
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
