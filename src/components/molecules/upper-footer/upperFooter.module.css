@@ -1,0 +1,24 @@
+.container{
+    background-color: rgb(95, 143, 182);
+    padding: 35px;
+}
+.content{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 0 10%;
+}
+.form_container{
+   text-align: center;
+}
+.input{
+    width: 240px;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.input:focus{
+    outline: none;
+    box-shadow: 0 0 4px 4px rgb(122, 122, 245);
+}
